@@ -4,6 +4,7 @@ import (
 	"log"
 	"os"
 
+	"github.com/jun-yuaka/weather_line_bot/weather"
 	"github.com/line/line-bot-sdk-go/linebot"
 )
 
