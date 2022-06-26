@@ -31,7 +31,7 @@ func GetWeather() (str string, err error) {
 func httpGetBody(url string) ([]byte, error) {
 	response, err := http.Get(url)
 	if err != nil {
-		err = fmt.Errorf("Get Http Error: %s", err)
+		err = fmt.Errorf("get http error: %s", err)
 		return nil, err
 	}
 
